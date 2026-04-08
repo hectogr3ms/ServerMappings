@@ -137,7 +137,6 @@ jobs:
           --translations_folder ServerMappings/locales/ \
           --translations_output ServerMappings/locales/en_US.json \
           --json_output .out/servers.json \
-          --csv_output .out/servers.csv \
           --no-include_inactive
 
       - name: Sync to Crowdin
